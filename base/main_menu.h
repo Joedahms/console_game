@@ -3,8 +3,6 @@
 
 class main_menu {
 	public:
-		void fill_choices();
-		void run_menu();
 
 }
 

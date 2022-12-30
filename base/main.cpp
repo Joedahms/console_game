@@ -1,6 +1,7 @@
 #include <iostream>
-// lsakd;ghao;uisrehgop;si
+
 int main(void) {
-	std::cout << "hello world" << std::endl;
-	return 0;
+	static main_menu_state m_m_s;
+	menu_state.state_ = &menu_state::m_m_s;
+	menu_state.enter();
 }
