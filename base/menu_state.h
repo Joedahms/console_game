@@ -1,6 +1,9 @@
 #ifndef MENU_STATE_H
 #define MENU_STATE_H
 
+#include "menu_machine.h"
+#include "menu_state.h"
+
 class menu_state {
 	public:
 		virtual void enter(menu_machine& menu) = 0;

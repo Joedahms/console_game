@@ -1,6 +1,8 @@
 #ifndef MENU_MACHINE_H
 #define MENU_MACHINE_H
 
+
+
 class menu_machine {
 	public:
 		void enter();

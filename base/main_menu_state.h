@@ -1,3 +1,6 @@
+#ifndef MAIN_MENU_STATE_H
+#define MAIN_MENU_STATE_H 
+#include "menu_machine.h" 
 #include "menu_state.h"
 
 class main_menu_state : public menu_state {
